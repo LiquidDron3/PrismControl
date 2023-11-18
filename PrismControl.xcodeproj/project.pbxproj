@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849905852B08D69F0089A347 /* PrismControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905842B08D69F0089A347 /* PrismControlApp.swift */; };
+		849905872B08D69F0089A347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905862B08D69F0089A347 /* ContentView.swift */; };
+		849905892B08D6A10089A347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849905882B08D6A10089A347 /* Assets.xcassets */; };
+		8499058C2B08D6A10089A347 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8499058B2B08D6A10089A347 /* Preview Assets.xcassets */; };
+		849905962B08D6A10089A347 /* PrismControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905952B08D6A10089A347 /* PrismControlTests.swift */; };
+		849905A02B08D6A10089A347 /* PrismControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499059F2B08D6A10089A347 /* PrismControlUITests.swift */; };
+		849905A22B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905A12B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849905922B08D6A10089A347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849905792B08D69F0089A347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849905802B08D69F0089A347;
+			remoteInfo = PrismControl;
+		};
+		8499059C2B08D6A10089A347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849905792B08D69F0089A347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849905802B08D69F0089A347;
+			remoteInfo = PrismControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849905812B08D69F0089A347 /* PrismControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849905842B08D69F0089A347 /* PrismControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlApp.swift; sourceTree = "<group>"; };
+		849905862B08D69F0089A347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		849905882B08D6A10089A347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8499058B2B08D6A10089A347 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		849905912B08D6A10089A347 /* PrismControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849905952B08D6A10089A347 /* PrismControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlTests.swift; sourceTree = "<group>"; };
+		8499059B2B08D6A10089A347 /* PrismControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8499059F2B08D6A10089A347 /* PrismControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlUITests.swift; sourceTree = "<group>"; };
+		849905A12B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8499057E2B08D69F0089A347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8499058E2B08D6A10089A347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849905982B08D6A10089A347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849905782B08D69F0089A347 = {
+			isa = PBXGroup;
+			children = (
+				849905832B08D69F0089A347 /* PrismControl */,
+				849905942B08D6A10089A347 /* PrismControlTests */,
+				8499059E2B08D6A10089A347 /* PrismControlUITests */,
+				849905822B08D69F0089A347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849905822B08D69F0089A347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849905812B08D69F0089A347 /* PrismControl.app */,
+				849905912B08D6A10089A347 /* PrismControlTests.xctest */,
+				8499059B2B08D6A10089A347 /* PrismControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849905832B08D69F0089A347 /* PrismControl */ = {
+			isa = PBXGroup;
+			children = (
+				849905842B08D69F0089A347 /* PrismControlApp.swift */,
+				849905862B08D69F0089A347 /* ContentView.swift */,
+				849905882B08D6A10089A347 /* Assets.xcassets */,
+				8499058A2B08D6A10089A347 /* Preview Content */,
+			);
+			path = PrismControl;
+			sourceTree = "<group>";
+		};
+		8499058A2B08D6A10089A347 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8499058B2B08D6A10089A347 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		849905942B08D6A10089A347 /* PrismControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				849905952B08D6A10089A347 /* PrismControlTests.swift */,
+			);
+			path = PrismControlTests;
+			sourceTree = "<group>";
+		};
+		8499059E2B08D6A10089A347 /* PrismControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8499059F2B08D6A10089A347 /* PrismControlUITests.swift */,
+				849905A12B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift */,
+			);
+			path = PrismControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849905802B08D69F0089A347 /* PrismControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849905A52B08D6A10089A347 /* Build configuration list for PBXNativeTarget "PrismControl" */;
+			buildPhases = (
+				8499057D2B08D69F0089A347 /* Sources */,
+				8499057E2B08D69F0089A347 /* Frameworks */,
+				8499057F2B08D69F0089A347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrismControl;
+			productName = PrismControl;
+			productReference = 849905812B08D69F0089A347 /* PrismControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849905902B08D6A10089A347 /* PrismControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849905A82B08D6A10089A347 /* Build configuration list for PBXNativeTarget "PrismControlTests" */;
+			buildPhases = (
+				8499058D2B08D6A10089A347 /* Sources */,
+				8499058E2B08D6A10089A347 /* Frameworks */,
+				8499058F2B08D6A10089A347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849905932B08D6A10089A347 /* PBXTargetDependency */,
+			);
+			name = PrismControlTests;
+			productName = PrismControlTests;
+			productReference = 849905912B08D6A10089A347 /* PrismControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8499059A2B08D6A10089A347 /* PrismControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849905AB2B08D6A10089A347 /* Build configuration list for PBXNativeTarget "PrismControlUITests" */;
+			buildPhases = (
+				849905972B08D6A10089A347 /* Sources */,
+				849905982B08D6A10089A347 /* Frameworks */,
+				849905992B08D6A10089A347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8499059D2B08D6A10089A347 /* PBXTargetDependency */,
+			);
+			name = PrismControlUITests;
+			productName = PrismControlUITests;
+			productReference = 8499059B2B08D6A10089A347 /* PrismControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849905792B08D69F0089A347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					849905802B08D69F0089A347 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					849905902B08D6A10089A347 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 849905802B08D69F0089A347;
+					};
+					8499059A2B08D6A10089A347 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 849905802B08D69F0089A347;
+					};
+				};
+			};
+			buildConfigurationList = 8499057C2B08D69F0089A347 /* Build configuration list for PBXProject "PrismControl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849905782B08D69F0089A347;
+			productRefGroup = 849905822B08D69F0089A347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849905802B08D69F0089A347 /* PrismControl */,
+				849905902B08D6A10089A347 /* PrismControlTests */,
+				8499059A2B08D6A10089A347 /* PrismControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8499057F2B08D69F0089A347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8499058C2B08D6A10089A347 /* Preview Assets.xcassets in Resources */,
+				849905892B08D6A10089A347 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8499058F2B08D6A10089A347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849905992B08D6A10089A347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8499057D2B08D69F0089A347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849905872B08D69F0089A347 /* ContentView.swift in Sources */,
+				849905852B08D69F0089A347 /* PrismControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8499058D2B08D6A10089A347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849905962B08D6A10089A347 /* PrismControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849905972B08D6A10089A347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849905A22B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift in Sources */,
+				849905A02B08D6A10089A347 /* PrismControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849905932B08D6A10089A347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849905802B08D69F0089A347 /* PrismControl */;
+			targetProxy = 849905922B08D6A10089A347 /* PBXContainerItemProxy */;
+		};
+		8499059D2B08D6A10089A347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849905802B08D69F0089A347 /* PrismControl */;
+			targetProxy = 8499059C2B08D6A10089A347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		849905A32B08D6A10089A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		849905A42B08D6A10089A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849905A62B08D6A10089A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrismControl/Preview Content\"";
+				DEVELOPMENT_TEAM = W5J5FBF8HC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrismControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849905A72B08D6A10089A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrismControl/Preview Content\"";
+				DEVELOPMENT_TEAM = W5J5FBF8HC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrismControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		849905A92B08D6A10089A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5J5FBF8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrismControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrismControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrismControl";
+			};
+			name = Debug;
+		};
+		849905AA2B08D6A10089A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5J5FBF8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrismControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrismControl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrismControl";
+			};
+			name = Release;
+		};
+		849905AC2B08D6A10089A347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5J5FBF8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrismControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrismControl;
+			};
+			name = Debug;
+		};
+		849905AD2B08D6A10089A347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W5J5FBF8HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TM.PrismControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrismControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8499057C2B08D69F0089A347 /* Build configuration list for PBXProject "PrismControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849905A32B08D6A10089A347 /* Debug */,
+				849905A42B08D6A10089A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849905A52B08D6A10089A347 /* Build configuration list for PBXNativeTarget "PrismControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849905A62B08D6A10089A347 /* Debug */,
+				849905A72B08D6A10089A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849905A82B08D6A10089A347 /* Build configuration list for PBXNativeTarget "PrismControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849905A92B08D6A10089A347 /* Debug */,
+				849905AA2B08D6A10089A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849905AB2B08D6A10089A347 /* Build configuration list for PBXNativeTarget "PrismControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849905AC2B08D6A10089A347 /* Debug */,
+				849905AD2B08D6A10089A347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849905792B08D69F0089A347 /* Project object */;
+}
