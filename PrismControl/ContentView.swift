@@ -4,21 +4,52 @@
 //
 //  Created by Kai Peintinger on 18.11.23.
 //
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selectedTab = 0
+    @State private var showNotificationDot = true
+    @State private var isAppLoaded = false
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if isAppLoaded {
+            TabView(selection: $selectedTab) {
+                HomeUI()
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                    .tag(0)
+                
+                SceneUI()
+                    .tabItem {
+                        Label("Scene", systemImage: "paintbrush.pointed")
+                    }
+                    .tag(1)
+                
+                SmartUI()
+                    .tabItem {
+                        Label("Smart", systemImage: "cube")
+                    }
+                    .tag(2)
+                
+                MeUI()
+                    .tabItem {
+                        Label("Me", systemImage: "person.crop.circle")
+                    }
+                    .tag(3)
+            }
+        } else {
+            WelcomeUI(onWelcomeCompletion: {
+                isAppLoaded = true
+            })
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

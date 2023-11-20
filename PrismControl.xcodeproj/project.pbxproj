@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8465860C2B0B8A4800E9AE96 /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465860B2B0B8A4800E9AE96 /* HomeUI.swift */; };
+		8465860E2B0B8A6000E9AE96 /* MeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465860D2B0B8A6000E9AE96 /* MeUI.swift */; };
+		846586102B0B8A7000E9AE96 /* SceneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465860F2B0B8A7000E9AE96 /* SceneUI.swift */; };
+		846586122B0B8A8C00E9AE96 /* SmartUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846586112B0B8A8C00E9AE96 /* SmartUI.swift */; };
+		846586142B0B8AA800E9AE96 /* WelcomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846586132B0B8AA800E9AE96 /* WelcomeUI.swift */; };
 		849905852B08D69F0089A347 /* PrismControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905842B08D69F0089A347 /* PrismControlApp.swift */; };
 		849905872B08D69F0089A347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905862B08D69F0089A347 /* ContentView.swift */; };
 		849905892B08D6A10089A347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849905882B08D6A10089A347 /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8465860B2B0B8A4800E9AE96 /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
+		8465860D2B0B8A6000E9AE96 /* MeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeUI.swift; sourceTree = "<group>"; };
+		8465860F2B0B8A7000E9AE96 /* SceneUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneUI.swift; sourceTree = "<group>"; };
+		846586112B0B8A8C00E9AE96 /* SmartUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartUI.swift; sourceTree = "<group>"; };
+		846586132B0B8AA800E9AE96 /* WelcomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUI.swift; sourceTree = "<group>"; };
 		849905812B08D69F0089A347 /* PrismControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849905842B08D69F0089A347 /* PrismControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlApp.swift; sourceTree = "<group>"; };
 		849905862B08D69F0089A347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +108,11 @@
 				849905862B08D69F0089A347 /* ContentView.swift */,
 				849905882B08D6A10089A347 /* Assets.xcassets */,
 				8499058A2B08D6A10089A347 /* Preview Content */,
+				8465860B2B0B8A4800E9AE96 /* HomeUI.swift */,
+				8465860D2B0B8A6000E9AE96 /* MeUI.swift */,
+				8465860F2B0B8A7000E9AE96 /* SceneUI.swift */,
+				846586112B0B8A8C00E9AE96 /* SmartUI.swift */,
+				846586132B0B8AA800E9AE96 /* WelcomeUI.swift */,
 			);
 			path = PrismControl;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846586102B0B8A7000E9AE96 /* SceneUI.swift in Sources */,
+				8465860C2B0B8A4800E9AE96 /* HomeUI.swift in Sources */,
+				8465860E2B0B8A6000E9AE96 /* MeUI.swift in Sources */,
 				849905872B08D69F0089A347 /* ContentView.swift in Sources */,
+				846586142B0B8AA800E9AE96 /* WelcomeUI.swift in Sources */,
 				849905852B08D69F0089A347 /* PrismControlApp.swift in Sources */,
+				846586122B0B8A8C00E9AE96 /* SmartUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
