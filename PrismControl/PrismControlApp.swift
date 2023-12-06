@@ -12,6 +12,7 @@ struct PrismControlApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(ColorViewModel.shared)
         }
     }
 }

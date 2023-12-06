@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct WelcomeUI: View {
+struct LoadingUI: View {
     @State private var opacity: Double = 1.0
     var onWelcomeCompletion: () -> Void
 

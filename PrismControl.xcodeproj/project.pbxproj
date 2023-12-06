@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8411ACD52B12ABA100EF3088 /* UserBleCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411ACD42B12ABA100EF3088 /* UserBleCharacteristic.swift */; };
+		8411ACD72B12ABBF00EF3088 /* UserBlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411ACD62B12ABBF00EF3088 /* UserBlePeripheral.swift */; };
+		8411ACD92B12ABED00EF3088 /* UserBleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411ACD82B12ABED00EF3088 /* UserBleService.swift */; };
+		8411ACDB2B12AC1100EF3088 /* BleCommViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411ACDA2B12AC1100EF3088 /* BleCommViewModel.swift */; };
+		8411ACDD2B12AC4E00EF3088 /* CharacteristicPropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8411ACDC2B12AC4E00EF3088 /* CharacteristicPropertyView.swift */; };
 		8465860C2B0B8A4800E9AE96 /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465860B2B0B8A4800E9AE96 /* HomeUI.swift */; };
 		8465860E2B0B8A6000E9AE96 /* MeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465860D2B0B8A6000E9AE96 /* MeUI.swift */; };
 		846586102B0B8A7000E9AE96 /* SceneUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465860F2B0B8A7000E9AE96 /* SceneUI.swift */; };
-		846586122B0B8A8C00E9AE96 /* SmartUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846586112B0B8A8C00E9AE96 /* SmartUI.swift */; };
-		846586142B0B8AA800E9AE96 /* WelcomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846586132B0B8AA800E9AE96 /* WelcomeUI.swift */; };
+		846586142B0B8AA800E9AE96 /* LoadingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846586132B0B8AA800E9AE96 /* LoadingUI.swift */; };
+		8465E2C72B20F4590018034B /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465E2C62B20F4590018034B /* SharedData.swift */; };
 		849905852B08D69F0089A347 /* PrismControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905842B08D69F0089A347 /* PrismControlApp.swift */; };
 		849905872B08D69F0089A347 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905862B08D69F0089A347 /* ContentView.swift */; };
 		849905892B08D6A10089A347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849905882B08D6A10089A347 /* Assets.xcassets */; };
@@ -19,6 +24,7 @@
 		849905962B08D6A10089A347 /* PrismControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905952B08D6A10089A347 /* PrismControlTests.swift */; };
 		849905A02B08D6A10089A347 /* PrismControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499059F2B08D6A10089A347 /* PrismControlUITests.swift */; };
 		849905A22B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849905A12B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift */; };
+		84BA22692B21314300D62305 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA22682B21314300D62305 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8411ACD42B12ABA100EF3088 /* UserBleCharacteristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBleCharacteristic.swift; sourceTree = "<group>"; };
+		8411ACD62B12ABBF00EF3088 /* UserBlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBlePeripheral.swift; sourceTree = "<group>"; };
+		8411ACD82B12ABED00EF3088 /* UserBleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBleService.swift; sourceTree = "<group>"; };
+		8411ACDA2B12AC1100EF3088 /* BleCommViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleCommViewModel.swift; sourceTree = "<group>"; };
+		8411ACDC2B12AC4E00EF3088 /* CharacteristicPropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicPropertyView.swift; sourceTree = "<group>"; };
 		8465860B2B0B8A4800E9AE96 /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
 		8465860D2B0B8A6000E9AE96 /* MeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeUI.swift; sourceTree = "<group>"; };
 		8465860F2B0B8A7000E9AE96 /* SceneUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneUI.swift; sourceTree = "<group>"; };
-		846586112B0B8A8C00E9AE96 /* SmartUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartUI.swift; sourceTree = "<group>"; };
-		846586132B0B8AA800E9AE96 /* WelcomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUI.swift; sourceTree = "<group>"; };
+		846586132B0B8AA800E9AE96 /* LoadingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingUI.swift; sourceTree = "<group>"; };
+		8465E2C62B20F4590018034B /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
 		849905812B08D69F0089A347 /* PrismControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849905842B08D69F0089A347 /* PrismControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlApp.swift; sourceTree = "<group>"; };
 		849905862B08D69F0089A347 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +65,7 @@
 		8499059B2B08D6A10089A347 /* PrismControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8499059F2B08D6A10089A347 /* PrismControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlUITests.swift; sourceTree = "<group>"; };
 		849905A12B08D6A10089A347 /* PrismControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BA22682B21314300D62305 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +93,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8411ACC72B12AA1F00EF3088 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				8411ACD42B12ABA100EF3088 /* UserBleCharacteristic.swift */,
+				8411ACD62B12ABBF00EF3088 /* UserBlePeripheral.swift */,
+				8411ACD82B12ABED00EF3088 /* UserBleService.swift */,
+				8411ACDA2B12AC1100EF3088 /* BleCommViewModel.swift */,
+				8411ACDC2B12AC4E00EF3088 /* CharacteristicPropertyView.swift */,
+				84BA22682B21314300D62305 /* DetailView.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		846846032B2130280064D45E /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				8465860B2B0B8A4800E9AE96 /* HomeUI.swift */,
+				8465860D2B0B8A6000E9AE96 /* MeUI.swift */,
+				8465860F2B0B8A7000E9AE96 /* SceneUI.swift */,
+				846586132B0B8AA800E9AE96 /* LoadingUI.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 		849905782B08D69F0089A347 = {
 			isa = PBXGroup;
 			children = (
+				846846032B2130280064D45E /* Interface */,
+				8411ACC72B12AA1F00EF3088 /* BLE */,
 				849905832B08D69F0089A347 /* PrismControl */,
 				849905942B08D6A10089A347 /* PrismControlTests */,
 				8499059E2B08D6A10089A347 /* PrismControlUITests */,
@@ -104,15 +142,11 @@
 		849905832B08D69F0089A347 /* PrismControl */ = {
 			isa = PBXGroup;
 			children = (
+				8465E2C62B20F4590018034B /* SharedData.swift */,
 				849905842B08D69F0089A347 /* PrismControlApp.swift */,
 				849905862B08D69F0089A347 /* ContentView.swift */,
 				849905882B08D6A10089A347 /* Assets.xcassets */,
 				8499058A2B08D6A10089A347 /* Preview Content */,
-				8465860B2B0B8A4800E9AE96 /* HomeUI.swift */,
-				8465860D2B0B8A6000E9AE96 /* MeUI.swift */,
-				8465860F2B0B8A7000E9AE96 /* SceneUI.swift */,
-				846586112B0B8A8C00E9AE96 /* SmartUI.swift */,
-				846586132B0B8AA800E9AE96 /* WelcomeUI.swift */,
 			);
 			path = PrismControl;
 			sourceTree = "<group>";
@@ -276,9 +310,15 @@
 				8465860C2B0B8A4800E9AE96 /* HomeUI.swift in Sources */,
 				8465860E2B0B8A6000E9AE96 /* MeUI.swift in Sources */,
 				849905872B08D69F0089A347 /* ContentView.swift in Sources */,
-				846586142B0B8AA800E9AE96 /* WelcomeUI.swift in Sources */,
+				8411ACD92B12ABED00EF3088 /* UserBleService.swift in Sources */,
+				8411ACD72B12ABBF00EF3088 /* UserBlePeripheral.swift in Sources */,
+				8411ACD52B12ABA100EF3088 /* UserBleCharacteristic.swift in Sources */,
+				84BA22692B21314300D62305 /* DetailView.swift in Sources */,
+				8411ACDB2B12AC1100EF3088 /* BleCommViewModel.swift in Sources */,
+				846586142B0B8AA800E9AE96 /* LoadingUI.swift in Sources */,
 				849905852B08D69F0089A347 /* PrismControlApp.swift in Sources */,
-				846586122B0B8A8C00E9AE96 /* SmartUI.swift in Sources */,
+				8411ACDD2B12AC4E00EF3088 /* CharacteristicPropertyView.swift in Sources */,
+				8465E2C72B20F4590018034B /* SharedData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +485,8 @@
 				DEVELOPMENT_TEAM = W5J5FBF8HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow Bluethooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow Bluethooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -474,6 +516,8 @@
 				DEVELOPMENT_TEAM = W5J5FBF8HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow Bluethooth";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Allow Bluethooth";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -12,36 +12,21 @@ struct ContentView: View {
     @State private var showNotificationDot = true
     @State private var isAppLoaded = false
     
-    
     var body: some View {
         if isAppLoaded {
             TabView(selection: $selectedTab) {
                 HomeUI()
-                    .tabItem {
-                        Label("Home", systemImage: "house")
-                    }
+                    .tabItem { Label("Home", systemImage: "house") }
                     .tag(0)
-                
                 SceneUI()
-                    .tabItem {
-                        Label("Scene", systemImage: "paintbrush.pointed")
-                    }
+                    .tabItem { Label("Scene", systemImage: "paintbrush.pointed")}
                     .tag(1)
-                
-                SmartUI()
-                    .tabItem {
-                        Label("Smart", systemImage: "cube")
-                    }
-                    .tag(2)
-                
                 MeUI()
-                    .tabItem {
-                        Label("Me", systemImage: "person.crop.circle")
-                    }
+                    .tabItem { Label("Me", systemImage: "person.crop.circle") }
                     .tag(3)
             }
         } else {
-            WelcomeUI(onWelcomeCompletion: {
+            LoadingUI(onWelcomeCompletion: {
                 isAppLoaded = true
             })
         }

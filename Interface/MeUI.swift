@@ -20,10 +20,6 @@ struct MeUI: View {
                 Text("Developer typing code...")
                     .font(.title)
                     .foregroundColor(.white)
-                
-                Cursor()
-                    .foregroundColor(.white)
-                    .font(.title)
             }
         }
     }
