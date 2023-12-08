@@ -8,7 +8,7 @@
 import SwiftUI
 
 class SharedData: ObservableObject {
-    @Published var bleInformation: String = ""
+    @Published var bleInformation: [UInt8] = []
 
     static let shared = SharedData()
 

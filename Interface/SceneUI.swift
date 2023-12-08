@@ -55,15 +55,34 @@ class ColorViewModel: ObservableObject {
         return String(format: "#%02X%02X%02X", redInt, greenInt, blueInt)
     }
 
-    var bleInformation: String {
-        SharedData.shared.bleInformation
+    var bleInformation: [UInt8] {
+        var information: [UInt8] = []
+
+        if let effectValue = LEDEffect.allCases.firstIndex(of: selectedEffect) {
+            information.append(UInt8(effectValue))
+        }
+
+        let speedValue = UInt8(speed * 10)
+        information.append(speedValue)
+
+        let redInt = Int(redValue)
+        let greenInt = Int(greenValue)
+        let blueInt = Int(blueValue)
+
+        information.append(UInt8(redInt))
+        information.append(UInt8(greenInt))
+        information.append(UInt8(blueInt))
+
+        return information
     }
 
     func updateBleInformation() {
-        SharedData.shared.bleInformation = String(format: "%@:%@:%.1f", hexColor, selectedEffect.rawValue, speed)
+        SharedData.shared.bleInformation = bleInformation
     }
+
     static var shared: ColorViewModel = ColorViewModel()
 }
+
 
 struct SceneUI: View {
     @StateObject private var colorViewModel = ColorViewModel.shared

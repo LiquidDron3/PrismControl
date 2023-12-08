@@ -5,9 +5,7 @@
 //  Created by Kai Peintinger on 25.11.23.
 //
 
-import Foundation
 import SwiftUI
-import Foundation
 import CoreBluetooth
 
 struct CharacteristicPropertyView: View {
@@ -23,14 +21,15 @@ struct CharacteristicPropertyView: View {
                 HStack(alignment: .center) {
                     Spacer().frame(width: 10)
                     Button(action: {
-                        if let data = colorViewModel.bleInformation.data(using: .utf8) {
-                            if(!data.isEmpty) {
-                                sentData = String(data: data, encoding: .utf8) ?? "Convert Data to String failed"
-                                oneDevPeri.userPeripheral.writeValue(data, for: oneChar.characteristic, type: .withResponse)
+                        if (!colorViewModel.bleInformation.isEmpty) {
+                            let information = colorViewModel.bleInformation
+                            for value in information {
+                                let dataToSend = Data([value])
+                                oneDevPeri.userPeripheral.writeValue(dataToSend, for: oneChar.characteristic, type: .withResponse)
                             }
-                            else {
-                                sentData = String("Select Data please!")
-                            }
+                            sentData = "Data was sent"
+                        } else {
+                            sentData = "Select Data please!"
                         }
                     }) {
                         Text("Send value")
@@ -46,12 +45,8 @@ struct CharacteristicPropertyView: View {
             }
         }
     }
+
     func isCharsWriteable() -> Bool {
-        if (oneChar.characteristic.properties.rawValue & CBCharacteristicProperties.write.rawValue) == 0 {
-            return false
-        } else {
-            return true
-        }
+        (oneChar.characteristic.properties.rawValue & CBCharacteristicProperties.write.rawValue) != 0
     }
 }
-
