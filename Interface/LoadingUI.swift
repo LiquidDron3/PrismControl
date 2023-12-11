@@ -20,7 +20,7 @@ struct LoadingUI: View {
                 .opacity(opacity)
                 .animation(.easeOut(duration: 1.0), value: opacity)
             
-            Image(systemName: "move.3d")
+            Image("Logo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 75, height: 75)

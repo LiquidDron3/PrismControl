@@ -23,6 +23,10 @@ struct CharacteristicPropertyView: View {
                     Button(action: {
                         if (!colorViewModel.bleInformation.isEmpty) {
                             let information = colorViewModel.bleInformation
+                            // send 0 as the start bit for the transmission
+                            let startBit = Data([0x00])
+                            oneDevPeri.userPeripheral.writeValue(startBit, for: oneChar.characteristic, type: .withResponse)
+                            //send the actual data
                             for value in information {
                                 let dataToSend = Data([value])
                                 oneDevPeri.userPeripheral.writeValue(dataToSend, for: oneChar.characteristic, type: .withResponse)

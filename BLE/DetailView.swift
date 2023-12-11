@@ -29,6 +29,14 @@ struct DetailView: View {
                             bleObj: bleViewModel)
                     }
                 }
+                Button(action: goBack) {
+                    Text("Back")
+                        .padding()
+                        .frame(width: 175, height: 40.0)
+                        .foregroundColor(Color.white)
+                        .background(Color.cyan)
+                        .cornerRadius(8)
+                }
             } else {
                 Text("\(connectionStatus)")
                 var count = 0
@@ -41,24 +49,12 @@ struct DetailView: View {
                 }
             }
         }
-        .navigationBarBackButtonHidden(true)
-        .navigationBarItems(
-            leading:
-                Button(action: goBack) {
-                    Text("Back")
-                        .padding()
-                        .frame(width: 100.0, height: 40.0)
-                        .foregroundColor(Color.white)
-                        .background(Color.blue)
-                        .cornerRadius(8)
-                }
-        )
         .onAppear {
             bleViewModel.centralManager?.connect(oneDev.userPeripheral)
         }
     }
     func goBack() {
         self.presentationMode.wrappedValue.dismiss()
-        bleViewModel.centralManager?.cancelPeripheralConnection(oneDev.userPeripheral)
+        //bleViewModel.centralManager?.cancelPeripheralConnection(oneDev.userPeripheral)
     }
 }
